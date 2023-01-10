@@ -1,0 +1,26 @@
+.new-expanses__controls{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+
+}
+.new-expanses__control label{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+.new-expanses__control input{
+    font-size: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+
+}
+.new-expanses__actions{
+    text-align: right;
+    font-weight: bold;
+}
